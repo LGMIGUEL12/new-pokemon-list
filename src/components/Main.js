@@ -7,7 +7,7 @@ export const Main = () => {
   const [pokeData, setPokeData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [url, setUrl] = useState("https://pokeapi.co/api/v2/pokemon/");
-  const [nextUrl, setNextUrl] = useState();
+  const [nextUrl, setNextUrl] = useState(); 
   const [prevUrl, setPrevUrl] = useState();
   const [pokeDex, setPokeDex] = useState();
 
