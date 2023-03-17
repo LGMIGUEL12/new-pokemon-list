@@ -7,7 +7,11 @@
 }
 
 body {
-  background-color: rgb(236, 233, 230);
+  /* background-color: rgb(236, 233, 230); */
+  background: url(../../public/fondo.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 .container {
@@ -27,7 +31,7 @@ body {
 }
 .card {
   width: 300px;
-  background-color: #9edef9;
+  background-color: #acb1b3;
   border-radius: 1rem;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
   padding: 0 1.5rem;
@@ -62,7 +66,7 @@ body {
   margin-top: 1rem;
 }
 .abilities .group {
-  background-color: #b74555;
+  background-color: #c5172e;
   color: white;
   padding: 0.5rem;
   font-size: 12px;
@@ -84,6 +88,6 @@ body {
   font-size: 17px;
   font-weight: bold;
   color: white;
-  background-color: #b74555;
+  background-color: #830516;
   border-radius: 8px;
 }
